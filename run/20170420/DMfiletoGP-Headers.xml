@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!-- Generated -->
+
+<all_tags>
+	<tag>
+		<SoldToNum>soldtonumber</SoldToNum>
+		<SoldToName>soldtoname</SoldToName>
+		<ShipToNum>shiptono</ShipToNum>
+		<BillToNum>billtono</BillToNum>
+		<PayerNum>payerno</PayerNum>
+		<ContractNum>contractno</ContractNum>
+		<ItemNum>itemno</ItemNum>
+		<MaterialNum>materialno</MaterialNum>
+		<MaterialDesc>materialdescription</MaterialDesc>
+		<StartDate>startdate</StartDate>
+		<EndDate>enddate</EndDate>
+		<Media>media</Media>
+		<OnlinePlatform>onlineplatform</OnlinePlatform>
+		<Quantity>quantity</Quantity>
+		<HighLevelItem>high level item</HighLevelItem>
+		<InventoryDTNCode>inventorydtncode</InventoryDTNCode>
+		<RenewalTypeCode>renewal type code</RenewalTypeCode>
+		<RenewalTypeDesc>renewal type descr</RenewalTypeDesc>
+		<AccessType>accesstype</AccessType>
+		<AuthType>authenticationtype</AuthType>
+		<IDtoToBeIssued>idstobeissued</IDtoToBeIssued>
+		<MaxNumOfUsers>maxnoofusers</MaxNumOfUsers>
+		<ConcurrentUsers>concurrentusers</ConcurrentUsers>
+		<InvoiceNum>invoiceno</InvoiceNum>
+		<NetPriceForItem>netpriceforitem</NetPriceForItem>
+		<DetailMap>detailmap</DetailMap>
+		<FinalMaterial>finalmaterial</FinalMaterial>
+		<FinalMaterialDesc>finalmaterialdescription</FinalMaterialDesc>
+		<DisplayDesc>displaydescription</DisplayDesc>
+		<Opt1Materal>icoption1material-current contract</Opt1Materal>
+		<Opt1Price>icoption1price</Opt1Price>
+		<Opt1Flag>option1flag</Opt1Flag>
+		<Opt2Material>option2material</Opt2Material>
+		<Opt2Price>option2price</Opt2Price>
+		<Opt2ICFlag>option2icflag</Opt2ICFlag>
+		<Opt2ACFlag>option2acflag</Opt2ACFlag>
+		<Opt3ICMaterial>option3icmaterial</Opt3ICMaterial>
+		<Opt3ICPrice>option3icprice</Opt3ICPrice>
+		<Opt3ICFlag>option3icflag</Opt3ICFlag>
+		<Opt3ACMaterial>option3acmaterial</Opt3ACMaterial>
+		<Opt3ACPrice>option3acprice</Opt3ACPrice>
+		<Opt3ACFlag>option3acflag</Opt3ACFlag>
+		<Enclude_vs_Exclude>include_vs_exclude</Enclude_vs_Exclude>
+		<ExcludeReason>excludereason</ExcludeReason>
+		<SingleMultipleContact>singlemultiplecontact</SingleMultipleContact>
+		<DateOnMailPiece>Date on mail piece</DateOnMailPiece>
+		<ShipToFirstName>ShipToFirstName</ShipToFirstName>
+		<ShipToLastName>ShipToLastName</ShipToLastName>
+		<ShipToAddress>ShipToAddress</ShipToAddress>
+		<ShipToAddress2>ShipToAddress2</ShipToAddress2>
+		<ShipToCity>ShipToCity</ShipToCity>
+		<ShipToState>ShipToState</ShipToState>
+		<ShipToZip>ShipToZip</ShipToZip>
+		<ShipToEMAddress>ShipToEMAddress</ShipToEMAddress>
+		<RepName>RepName</RepName>
+		<RepPhone>RepPhone</RepPhone>
+		<RepEMAddress>RepEMAddress</RepEMAddress>
+		<RepDivision>RepDivision</RepDivision>
+	</tag>
+	<tag>
+		<SoldToNum>4001463470</SoldToNum>
+		<SoldToName>DEI HOLDINGS INC</SoldToName>
+		<ShipToNum>4001463454</ShipToNum>
+		<BillToNum>4001463454</BillToNum>
+		<PayerNum>4001463470</PayerNum>
+		<ContractNum>40282825</ContractNum>
+		<ItemNum>10</ItemNum>
+		<MaterialNum>10007606</MaterialNum>
+		<MaterialDesc>CORPORATE TAXSUITE W/TRC&amp;FED (CORPS1) INTERNET</MaterialDesc>
+		<StartDate>08/01/2016</StartDate>
+		<EndDate>07/31/2017</EndDate>
+		<Media>OL</Media>
+		<OnlinePlatform>Intelliconnect</OnlinePlatform>
+		<Quantity>1</Quantity>
+		<HighLevelItem>10</HighLevelItem>
+		<InventoryDTNCode>D075006</InventoryDTNCode>
+		<RenewalTypeCode>2</RenewalTypeCode>
+		<RenewalTypeDesc>OBR Renewal</RenewalTypeDesc>
+		<AccessType>2</AccessType>
+		<AuthType>1</AuthType>
+		<IDtoToBeIssued></IDtoToBeIssued>
+		<MaxNumOfUsers>99</MaxNumOfUsers>
+		<ConcurrentUsers></ConcurrentUsers>
+		<InvoiceNum></InvoiceNum>
+		<NetPriceForItem>3773.49</NetPriceForItem>
+		<DetailMap>Package 4</DetailMap>
+		<FinalMaterial>10044432</FinalMaterial>
+		<FinalMaterialDesc>ANSWERCONNECT PACKAGE 4 -- UP TO 20 USERS + PICK 1 DOMESTIC TREATISE</FinalMaterialDesc>
+		<DisplayDesc></DisplayDesc>
+		<Opt1Materal>10007606</Opt1Materal>
+		<Opt1Price>3773.49</Opt1Price>
+		<Opt1Flag>K</Opt1Flag>
+		<Opt2Material>10044432</Opt2Material>
+		<Opt2Price>3660.28</Opt2Price>
+		<Opt2ICFlag>C</Opt2ICFlag>
+		<Opt2ACFlag>N</Opt2ACFlag>
+		<Opt3ICMaterial>10007606</Opt3ICMaterial>
+		<Opt3ICPrice>566.02</Opt3ICPrice>
+		<Opt3ICFlag>K</Opt3ICFlag>
+		<Opt3ACMaterial>10044432</Opt3ACMaterial>
+		<Opt3ACPrice>3773.49</Opt3ACPrice>
+		<Opt3ACFlag>N</Opt3ACFlag>
+		<Enclude_vs_Exclude>Include</Enclude_vs_Exclude>
+		<ExcludeReason>Include</ExcludeReason>
+		<SingleMultipleContact>Single</SingleMultipleContact>
+		<DateOnMailPiece>5/1/17</DateOnMailPiece>
+		<ShipToFirstName>ROBERT</ShipToFirstName>
+		<ShipToLastName>REAGLE</ShipToLastName>
+		<ShipToAddress>1 VIPER WAY</ShipToAddress>
+		<ShipToAddress2></ShipToAddress2>
+		<ShipToCity>VISTA</ShipToCity>
+		<ShipToState>CA</ShipToState>
+		<ShipToZip>92081-7809</ShipToZip>
+		<ShipToEMAddress>robert.reagle@deiholdings.com</ShipToEMAddress>
+		<RepName>Connor Cutclife</RepName>
+		<RepPhone>(615) 395-5255</RepPhone>
+		<RepEMAddress>connor.cutclife@wolterskluwer.com</RepEMAddress>
+		<RepDivision>Service Source</RepDivision>
+	</tag>
+	<tag>
+		<SoldToNum>4001102306</SoldToNum>
+		<SoldToName>WEATHER SHIELD MFG INC</SoldToName>
+		<ShipToNum>4001469411</ShipToNum>
+		<BillToNum>4001469411</BillToNum>
+		<PayerNum>4001102306</PayerNum>
+		<ContractNum>40287266</ContractNum>
+		<ItemNum>10</ItemNum>
+		<MaterialNum>10007605</MaterialNum>
+		<MaterialDesc>CORPORATE TAX PROFESSIONAL W/TRC (CORPP) INTERNET</MaterialDesc>
+		<StartDate>08/01/2016</StartDate>
+		<EndDate>07/31/2017</EndDate>
+		<Media>OL</Media>
+		<OnlinePlatform>Intelliconnect</OnlinePlatform>
+		<Quantity>1</Quantity>
+		<HighLevelItem>10</HighLevelItem>
+		<InventoryDTNCode>D075016</InventoryDTNCode>
+		<RenewalTypeCode>1</RenewalTypeCode>
+		<RenewalTypeDesc>CBR Renewal</RenewalTypeDesc>
+		<AccessType>1</AccessType>
+		<AuthType>1</AuthType>
+		<IDtoToBeIssued>5</IDtoToBeIssued>
+		<MaxNumOfUsers>99999</MaxNumOfUsers>
+		<ConcurrentUsers></ConcurrentUsers>
+		<InvoiceNum></InvoiceNum>
+		<NetPriceForItem>3916.29</NetPriceForItem>
+		<DetailMap>Package 3</DetailMap>
+		<FinalMaterial>10044427</FinalMaterial>
+		<FinalMaterialDesc>ANSWERCONNECT PACKAGE 3 -- UP TO 20 USERS</FinalMaterialDesc>
+		<DisplayDesc></DisplayDesc>
+		<Opt1Materal>10007605</Opt1Materal>
+		<Opt1Price>3916.29</Opt1Price>
+		<Opt1Flag>K</Opt1Flag>
+		<Opt2Material>10044427</Opt2Material>
+		<Opt2Price>3798.8</Opt2Price>
+		<Opt2ICFlag>C</Opt2ICFlag>
+		<Opt2ACFlag>N</Opt2ACFlag>
+		<Opt3ICMaterial>10007605</Opt3ICMaterial>
+		<Opt3ICPrice>587.44</Opt3ICPrice>
+		<Opt3ICFlag>K</Opt3ICFlag>
+		<Opt3ACMaterial>10044427</Opt3ACMaterial>
+		<Opt3ACPrice>3916.29</Opt3ACPrice>
+		<Opt3ACFlag>N</Opt3ACFlag>
+		<Enclude_vs_Exclude>Include</Enclude_vs_Exclude>
+		<ExcludeReason>Include</ExcludeReason>
+		<SingleMultipleContact>Single</SingleMultipleContact>
+		<DateOnMailPiece>5/1/17</DateOnMailPiece>
+		<ShipToFirstName>JULIE</ShipToFirstName>
+		<ShipToLastName>ELLENBECKER</ShipToLastName>
+		<ShipToAddress>531 N 8TH ST</ShipToAddress>
+		<ShipToAddress2></ShipToAddress2>
+		<ShipToCity>MEDFORD</ShipToCity>
+		<ShipToState>WI</ShipToState>
+		<ShipToZip>54451-1224</ShipToZip>
+		<ShipToEMAddress>jellenbecker@weathershield.com</ShipToEMAddress>
+		<RepName>Thomas Bible</RepName>
+		<RepPhone>(615) 395-5255</RepPhone>
+		<RepEMAddress>thomas.bible@wolterskluwer.com</RepEMAddress>
+		<RepDivision>Service Source</RepDivision>
+	</tag>
+	<tag>
+		<SoldToNum>4001106502</SoldToNum>
+		<SoldToName>COMMERCE BANK</SoldToName>
+		<ShipToNum>4001387644</ShipToNum>
+		<BillToNum>4001387644</BillToNum>
+		<PayerNum>4001106502</PayerNum>
+		<ContractNum>40335509</ContractNum>
+		<ItemNum>10</ItemNum>
+		<MaterialNum>10031965</MaterialNum>
+		<MaterialDesc>ILLINOIS STATE TAX REPORTS ON INTERNET</MaterialDesc>
+		<StartDate>08/01/2016</StartDate>
+		<EndDate>07/31/2017</EndDate>
+		<Media>OL</Media>
+		<OnlinePlatform>Intelliconnect</OnlinePlatform>
+		<Quantity>1</Quantity>
+		<HighLevelItem>10</HighLevelItem>
+		<InventoryDTNCode>D002109</InventoryDTNCode>
+		<RenewalTypeCode>1</RenewalTypeCode>
+		<RenewalTypeDesc>CBR Renewal</RenewalTypeDesc>
+		<AccessType>2</AccessType>
+		<AuthType>1</AuthType>
+		<IDtoToBeIssued></IDtoToBeIssued>
+		<MaxNumOfUsers>99999</MaxNumOfUsers>
+		<ConcurrentUsers></ConcurrentUsers>
+		<InvoiceNum></InvoiceNum>
+		<NetPriceForItem>843.75</NetPriceForItem>
+		<DetailMap>Add-on State -- IL</DetailMap>
+		<FinalMaterial>10041942</FinalMaterial>
+		<FinalMaterialDesc>ANSWERCONNECT IL</FinalMaterialDesc>
+		<DisplayDesc>This convenient resource covers your Illinois state tax compliance and planning needs. Access detailed state tax explanations for Illinois, along with laws, regulations, cases, rulings and tools.</DisplayDesc>
+		<Opt1Materal>10031965</Opt1Materal>
+		<Opt1Price>843.75</Opt1Price>
+		<Opt1Flag>K</Opt1Flag>
+		<Opt2Material>10041942</Opt2Material>
+		<Opt2Price>818.43</Opt2Price>
+		<Opt2ICFlag>C</Opt2ICFlag>
+		<Opt2ACFlag>N</Opt2ACFlag>
+		<Opt3ICMaterial>10031965</Opt3ICMaterial>
+		<Opt3ICPrice>126.56</Opt3ICPrice>
+		<Opt3ICFlag>K</Opt3ICFlag>
+		<Opt3ACMaterial>10041942</Opt3ACMaterial>
+		<Opt3ACPrice>843.75</Opt3ACPrice>
+		<Opt3ACFlag>N</Opt3ACFlag>
+		<Enclude_vs_Exclude>Include</Enclude_vs_Exclude>
+		<ExcludeReason>Include</ExcludeReason>
+		<SingleMultipleContact>Single</SingleMultipleContact>
+		<DateOnMailPiece>5/1/17</DateOnMailPiece>
+		<ShipToFirstName>TOM</ShipToFirstName>
+		<ShipToLastName>BASSETT</ShipToLastName>
+		<ShipToAddress>8000 FORSYTH BLVD</ShipToAddress>
+		<ShipToAddress2></ShipToAddress2>
+		<ShipToCity>SAINT LOUIS</ShipToCity>
+		<ShipToState>MO</ShipToState>
+		<ShipToZip>63105-1707</ShipToZip>
+		<ShipToEMAddress>thomas.bassett@commercebank.com</ShipToEMAddress>
+		<RepName>Aaron Bobrzynski</RepName>
+		<RepPhone>(888) 580-2250</RepPhone>
+		<RepEMAddress>aaron.bobrzynski@wolterskluwer.com</RepEMAddress>
+		<RepDivision>Research &amp; Learning</RepDivision>
+	</tag>
+	<tag>
+		<SoldToNum>4001106502</SoldToNum>
+		<SoldToName>COMMERCE BANK</SoldToName>
+		<ShipToNum>4001387644</ShipToNum>
+		<BillToNum>4001387644</BillToNum>
+		<PayerNum>4001106502</PayerNum>
+		<ContractNum>40335509</ContractNum>
+		<ItemNum>20</ItemNum>
+		<MaterialNum>10031968</MaterialNum>
+		<MaterialDesc>KANSAS STATE TAX REPORTS ON INTERNET</MaterialDesc>
+		<StartDate>08/01/2016</StartDate>
+		<EndDate>07/31/2017</EndDate>
+		<Media>OL</Media>
+		<OnlinePlatform>Intelliconnect</OnlinePlatform>
+		<Quantity>1</Quantity>
+		<HighLevelItem>20</HighLevelItem>
+		<InventoryDTNCode>D002109</InventoryDTNCode>
+		<RenewalTypeCode>1</RenewalTypeCode>
+		<RenewalTypeDesc>CBR Renewal</RenewalTypeDesc>
+		<AccessType>2</AccessType>
+		<AuthType>1</AuthType>
+		<IDtoToBeIssued></IDtoToBeIssued>
+		<MaxNumOfUsers>99999</MaxNumOfUsers>
+		<ConcurrentUsers></ConcurrentUsers>
+		<InvoiceNum></InvoiceNum>
+		<NetPriceForItem>843.75</NetPriceForItem>
+		<DetailMap>Add-on State</DetailMap>
+		<FinalMaterial>10041944</FinalMaterial>
+		<FinalMaterialDesc>ANSWERCONNECT KS</FinalMaterialDesc>
+		<DisplayDesc>This convenient resource covers your Kansas state tax compliance and planning needs. Access detailed state tax explanations for Kansas, along with laws, regulations, cases, rulings and tools.</DisplayDesc>
+		<Opt1Materal>10031968</Opt1Materal>
+		<Opt1Price>843.75</Opt1Price>
+		<Opt1Flag>K</Opt1Flag>
+		<Opt2Material>10041944</Opt2Material>
+		<Opt2Price>818.43</Opt2Price>
+		<Opt2ICFlag>C</Opt2ICFlag>
+		<Opt2ACFlag>N</Opt2ACFlag>
+		<Opt3ICMaterial>10031968</Opt3ICMaterial>
+		<Opt3ICPrice>126.56</Opt3ICPrice>
+		<Opt3ICFlag>K</Opt3ICFlag>
+		<Opt3ACMaterial>10041944</Opt3ACMaterial>
+		<Opt3ACPrice>843.75</Opt3ACPrice>
+		<Opt3ACFlag>N</Opt3ACFlag>
+		<Enclude_vs_Exclude>Include</Enclude_vs_Exclude>
+		<ExcludeReason>Include</ExcludeReason>
+		<SingleMultipleContact>Single</SingleMultipleContact>
+		<DateOnMailPiece>5/1/17</DateOnMailPiece>
+		<ShipToFirstName>TOM</ShipToFirstName>
+		<ShipToLastName>BASSETT</ShipToLastName>
+		<ShipToAddress>8000 FORSYTH BLVD</ShipToAddress>
+		<ShipToAddress2></ShipToAddress2>
+		<ShipToCity>SAINT LOUIS</ShipToCity>
+		<ShipToState>MO</ShipToState>
+		<ShipToZip>63105-1707</ShipToZip>
+		<ShipToEMAddress>thomas.bassett@commercebank.com</ShipToEMAddress>
+		<RepName>Aaron Bobrzynski</RepName>
+		<RepPhone>(888) 580-2250</RepPhone>
+		<RepEMAddress>aaron.bobrzynski@wolterskluwer.com</RepEMAddress>
+		<RepDivision>Research &amp; Learning</RepDivision>
+	</tag>
+	<tag>
+		<SoldToNum>4001448046</SoldToNum>
+		<SoldToName>HOBERMAN &amp; LESSER</SoldToName>
+		<ShipToNum>4001493218</ShipToNum>
+		<BillToNum>4001448047</BillToNum>
+		<PayerNum>4001448046</PayerNum>
+		<ContractNum>40337553</ContractNum>
+		<ItemNum>190</ItemNum>
+		<MaterialNum>10030954</MaterialNum>
+		<MaterialDesc>JOURNAL OF TAX PRACTICE &amp; PROCEDURE ON INTERNET</MaterialDesc>
+		<StartDate>02/01/2016</StartDate>
+		<EndDate>07/31/2017</EndDate>
+		<Media>OL</Media>
+		<OnlinePlatform>Intelliconnect</OnlinePlatform>
+		<Quantity>1</Quantity>
+		<HighLevelItem>190</HighLevelItem>
+		<InventoryDTNCode>D075004</InventoryDTNCode>
+		<RenewalTypeCode>1</RenewalTypeCode>
+		<RenewalTypeDesc>CBR Renewal</RenewalTypeDesc>
+		<AccessType>2</AccessType>
+		<AuthType>1</AuthType>
+		<IDtoToBeIssued></IDtoToBeIssued>
+		<MaxNumOfUsers>20</MaxNumOfUsers>
+		<ConcurrentUsers></ConcurrentUsers>
+		<InvoiceNum></InvoiceNum>
+		<NetPriceForItem>345.72</NetPriceForItem>
+		<DetailMap>Add-on Journal</DetailMap>
+		<FinalMaterial>10042822</FinalMaterial>
+		<FinalMaterialDesc>AC FED ADD-ON TAX PRACTICE &amp; PROCEDURE</FinalMaterialDesc>
+		<DisplayDesc>Journal of Tax Practice &amp; Procedure, published bimonthly, offers both practical and timely analysis of current issues and trends in the representation of taxpayers before the IRS, from initial contact through litigation.</DisplayDesc>
+		<Opt1Materal>10030954</Opt1Materal>
+		<Opt1Price>345.72</Opt1Price>
+		<Opt1Flag>K</Opt1Flag>
+		<Opt2Material>10042822</Opt2Material>
+		<Opt2Price>335.34</Opt2Price>
+		<Opt2ICFlag>C</Opt2ICFlag>
+		<Opt2ACFlag>N</Opt2ACFlag>
+		<Opt3ICMaterial>10030954</Opt3ICMaterial>
+		<Opt3ICPrice>51.85</Opt3ICPrice>
+		<Opt3ICFlag>K</Opt3ICFlag>
+		<Opt3ACMaterial>10042822</Opt3ACMaterial>
+		<Opt3ACPrice>345.72</Opt3ACPrice>
+		<Opt3ACFlag>N</Opt3ACFlag>
+		<Enclude_vs_Exclude>Include</Enclude_vs_Exclude>
+		<ExcludeReason>Include</ExcludeReason>
+		<SingleMultipleContact>Single</SingleMultipleContact>
+		<DateOnMailPiece>5/1/17</DateOnMailPiece>
+		<ShipToFirstName>LEVI</ShipToFirstName>
+		<ShipToLastName>HERZOG</ShipToLastName>
+		<ShipToAddress>252 W 37TH ST</ShipToAddress>
+		<ShipToAddress2></ShipToAddress2>
+		<ShipToCity>NEW YORK</ShipToCity>
+		<ShipToState>NY</ShipToState>
+		<ShipToZip>10018-6636</ShipToZip>
+		<ShipToEMAddress>levih@hobermanlesser.com</ShipToEMAddress>
+		<RepName>Brandon Harrison</RepName>
+		<RepPhone>(866) 775-2140</RepPhone>
+		<RepEMAddress>brandon.harrison@wolterskluwer.com</RepEMAddress>
+		<RepDivision>Service Source</RepDivision>
+	</tag>
+	<tag>
+		<SoldToNum>4001448046</SoldToNum>
+		<SoldToName>HOBERMAN &amp; LESSER</SoldToName>
+		<ShipToNum>4001493218</ShipToNum>
+		<BillToNum>4001448047</BillToNum>
+		<PayerNum>4001448046</PayerNum>
+		<ContractNum>40337553</ContractNum>
+		<ItemNum>20</ItemNum>
+		<MaterialNum>10032937</MaterialNum>
+		<MaterialDesc>TAXPLAN: BUSINESS TAX PLANNING LIBRARY INTERNET</MaterialDesc>
+		<StartDate>02/01/2016</StartDate>
+		<EndDate>07/31/2017</EndDate>
+		<Media>OL</Media>
+		<OnlinePlatform>Intelliconnect</OnlinePlatform>
+		<Quantity>1</Quantity>
+		<HighLevelItem>20</HighLevelItem>
+		<InventoryDTNCode>D075004</InventoryDTNCode>
+		<RenewalTypeCode>1</RenewalTypeCode>
+		<RenewalTypeDesc>CBR Renewal</RenewalTypeDesc>
+		<AccessType>2</AccessType>
+		<AuthType>1</AuthType>
+		<IDtoToBeIssued></IDtoToBeIssued>
+		<MaxNumOfUsers>20</MaxNumOfUsers>
+		<ConcurrentUsers></ConcurrentUsers>
+		<InvoiceNum></InvoiceNum>
+		<NetPriceForItem>843.75</NetPriceForItem>
+		<DetailMap>Package 1</DetailMap>
+		<FinalMaterial>10044409</FinalMaterial>
+		<FinalMaterialDesc>ANSWERCONNECT PACKAGE 1 UP TO 20 USERS + PICK 1 STATE</FinalMaterialDesc>
+		<DisplayDesc>Customized for tax and accounting professionals who need guidance covering a wide range of Federal tax issues and form preparation, and detailed support for decision-making and planning. Along with coverage of the Federal Tax Code and Regulations, you'll benefit from access to our world-renowned CCH U.S. Master Tax Guide, overviews of many federal and state tax topics, and access to several time-saving tools all designed to help you get the answers you need while getting more done. Also included are comprehensive tax laws and analysis for the state (1) of your choice.</DisplayDesc>
+		<Opt1Materal>10032937</Opt1Materal>
+		<Opt1Price>843.75</Opt1Price>
+		<Opt1Flag>K</Opt1Flag>
+		<Opt2Material>10044409</Opt2Material>
+		<Opt2Price>818.43</Opt2Price>
+		<Opt2ICFlag>C</Opt2ICFlag>
+		<Opt2ACFlag>N</Opt2ACFlag>
+		<Opt3ICMaterial>10032937</Opt3ICMaterial>
+		<Opt3ICPrice>126.56</Opt3ICPrice>
+		<Opt3ICFlag>K</Opt3ICFlag>
+		<Opt3ACMaterial>10044409</Opt3ACMaterial>
+		<Opt3ACPrice>843.75</Opt3ACPrice>
+		<Opt3ACFlag>N</Opt3ACFlag>
+		<Enclude_vs_Exclude>Include</Enclude_vs_Exclude>
+		<ExcludeReason>Include</ExcludeReason>
+		<SingleMultipleContact>Single</SingleMultipleContact>
+		<DateOnMailPiece>5/1/17</DateOnMailPiece>
+		<ShipToFirstName>LEVI</ShipToFirstName>
+		<ShipToLastName>HERZOG</ShipToLastName>
+		<ShipToAddress>252 W 37TH ST</ShipToAddress>
+		<ShipToAddress2></ShipToAddress2>
+		<ShipToCity>NEW YORK</ShipToCity>
+		<ShipToState>NY</ShipToState>
+		<ShipToZip>10018-6636</ShipToZip>
+		<ShipToEMAddress>levih@hobermanlesser.com</ShipToEMAddress>
+		<RepName>Brandon Harrison</RepName>
+		<RepPhone>(866) 775-2140</RepPhone>
+		<RepEMAddress>brandon.harrison@wolterskluwer.com</RepEMAddress>
+		<RepDivision>Service Source</RepDivision>
+	</tag>
+	<tag>
+		<SoldToNum>4001448046</SoldToNum>
+		<SoldToName>HOBERMAN &amp; LESSER</SoldToName>
+		<ShipToNum>4001493218</ShipToNum>
+		<BillToNum>4001448047</BillToNum>
+		<PayerNum>4001448046</PayerNum>
+		<ContractNum>40337553</ContractNum>
+		<ItemNum>200</ItemNum>
+		<MaterialNum>10031320</MaterialNum>
+		<MaterialDesc>REAL ESTATE TAX COMMENTARIES ON INTERNET</MaterialDesc>
+		<StartDate>02/01/2016</StartDate>
+		<EndDate>07/31/2017</EndDate>
+		<Media>OL</Media>
+		<OnlinePlatform>Intelliconnect</OnlinePlatform>
+		<Quantity>1</Quantity>
+		<HighLevelItem>200</HighLevelItem>
+		<InventoryDTNCode>D075004</InventoryDTNCode>
+		<RenewalTypeCode>1</RenewalTypeCode>
+		<RenewalTypeDesc>CBR Renewal</RenewalTypeDesc>
+		<AccessType>2</AccessType>
+		<AuthType>1</AuthType>
+		<IDtoToBeIssued></IDtoToBeIssued>
+		<MaxNumOfUsers>20</MaxNumOfUsers>
+		<ConcurrentUsers></ConcurrentUsers>
+		<InvoiceNum></InvoiceNum>
+		<NetPriceForItem>866.25</NetPriceForItem>
+		<DetailMap>NO MAP</DetailMap>
+		<FinalMaterial>10031320</FinalMaterial>
+		<FinalMaterialDesc>REAL ESTATE TAX COMMENTARIES ON INTERNET</FinalMaterialDesc>
+		<DisplayDesc></DisplayDesc>
+		<Opt1Materal>10031320</Opt1Materal>
+		<Opt1Price>866.25</Opt1Price>
+		<Opt1Flag>K</Opt1Flag>
+		<Opt2Material>10031320</Opt2Material>
+		<Opt2Price>840.26</Opt2Price>
+		<Opt2ICFlag>C</Opt2ICFlag>
+		<Opt2ACFlag>N</Opt2ACFlag>
+		<Opt3ICMaterial>10031320</Opt3ICMaterial>
+		<Opt3ICPrice>0</Opt3ICPrice>
+		<Opt3ICFlag>K</Opt3ICFlag>
+		<Opt3ACMaterial>10031320</Opt3ACMaterial>
+		<Opt3ACPrice>866.25</Opt3ACPrice>
+		<Opt3ACFlag>N</Opt3ACFlag>
+		<Enclude_vs_Exclude>Include</Enclude_vs_Exclude>
+		<ExcludeReason>Include</ExcludeReason>
+		<SingleMultipleContact>Single</SingleMultipleContact>
+		<DateOnMailPiece>5/1/17</DateOnMailPiece>
+		<ShipToFirstName>LEVI</ShipToFirstName>
+		<ShipToLastName>HERZOG</ShipToLastName>
+		<ShipToAddress>252 W 37TH ST</ShipToAddress>
+		<ShipToAddress2></ShipToAddress2>
+		<ShipToCity>NEW YORK</ShipToCity>
+		<ShipToState>NY</ShipToState>
+		<ShipToZip>10018-6636</ShipToZip>
+		<ShipToEMAddress>levih@hobermanlesser.com</ShipToEMAddress>
+		<RepName>Brandon Harrison</RepName>
+		<RepPhone>(866) 775-2140</RepPhone>
+		<RepEMAddress>brandon.harrison@wolterskluwer.com</RepEMAddress>
+		<RepDivision>Service Source</RepDivision>
+	</tag>
+	<tag>
+		<SoldToNum>4001448046</SoldToNum>
+		<SoldToName>HOBERMAN &amp; LESSER</SoldToName>
+		<ShipToNum>4001493218</ShipToNum>
+		<BillToNum>4001448047</BillToNum>
+		<PayerNum>4001448046</PayerNum>
+		<ContractNum>40337553</ContractNum>
+		<ItemNum>210</ItemNum>
+		<MaterialNum>10007606</MaterialNum>
+		<MaterialDesc>CORPORATE TAXSUITE W/TRC&amp;FED (CORPS1) INTERNET</MaterialDesc>
+		<StartDate>02/01/2016</StartDate>
+		<EndDate>07/31/2017</EndDate>
+		<Media>OL</Media>
+		<OnlinePlatform>Intelliconnect</OnlinePlatform>
+		<Quantity>1</Quantity>
+		<HighLevelItem>210</HighLevelItem>
+		<InventoryDTNCode>D075004</InventoryDTNCode>
+		<RenewalTypeCode>1</RenewalTypeCode>
+		<RenewalTypeDesc>CBR Renewal</RenewalTypeDesc>
+		<AccessType>2</AccessType>
+		<AuthType>1</AuthType>
+		<IDtoToBeIssued></IDtoToBeIssued>
+		<MaxNumOfUsers>20</MaxNumOfUsers>
+		<ConcurrentUsers></ConcurrentUsers>
+		<InvoiceNum></InvoiceNum>
+		<NetPriceForItem>6040.64</NetPriceForItem>
+		<DetailMap>Package 4</DetailMap>
+		<FinalMaterial>10044432</FinalMaterial>
+		<FinalMaterialDesc>ANSWERCONNECT PACKAGE 4 -- UP TO 20 USERS + PICK 1 DOMESTIC TREATISE</FinalMaterialDesc>
+		<DisplayDesc></DisplayDesc>
+		<Opt1Materal>10007606</Opt1Materal>
+		<Opt1Price>6040.64</Opt1Price>
+		<Opt1Flag>K</Opt1Flag>
+		<Opt2Material>10044432</Opt2Material>
+		<Opt2Price>5859.42</Opt2Price>
+		<Opt2ICFlag>C</Opt2ICFlag>
+		<Opt2ACFlag>N</Opt2ACFlag>
+		<Opt3ICMaterial>10007606</Opt3ICMaterial>
+		<Opt3ICPrice>906.09</Opt3ICPrice>
+		<Opt3ICFlag>K</Opt3ICFlag>
+		<Opt3ACMaterial>10044432</Opt3ACMaterial>
+		<Opt3ACPrice>6040.64</Opt3ACPrice>
+		<Opt3ACFlag>N</Opt3ACFlag>
+		<Enclude_vs_Exclude>Include</Enclude_vs_Exclude>
+		<ExcludeReason>Include</ExcludeReason>
+		<SingleMultipleContact>Single</SingleMultipleContact>
+		<DateOnMailPiece>5/1/17</DateOnMailPiece>
+		<ShipToFirstName>LEVI</ShipToFirstName>
+		<ShipToLastName>HERZOG</ShipToLastName>
+		<ShipToAddress>252 W 37TH ST</ShipToAddress>
+		<ShipToAddress2></ShipToAddress2>
+		<ShipToCity>NEW YORK</ShipToCity>
+		<ShipToState>NY</ShipToState>
+		<ShipToZip>10018-6636</ShipToZip>
+		<ShipToEMAddress>levih@hobermanlesser.com</ShipToEMAddress>
+		<RepName>Brandon Harrison</RepName>
+		<RepPhone>(866) 775-2140</RepPhone>
+		<RepEMAddress>brandon.harrison@wolterskluwer.com</RepEMAddress>
+		<RepDivision>Service Source</RepDivision>
+	</tag>
+	<tag>
+		<SoldToNum>4001448046</SoldToNum>
+		<SoldToName>HOBERMAN &amp; LESSER</SoldToName>
+		<ShipToNum>4001493218</ShipToNum>
+		<BillToNum>4001448047</BillToNum>
+		<PayerNum>4001448046</PayerNum>
+		<ContractNum>40337553</ContractNum>
+		<ItemNum>270</ItemNum>
+		<MaterialNum>10016883</MaterialNum>
+		<MaterialDesc>ESTATE PLANNING EXPERT LIBRARY (INCLUDES EPET AND EPPD)(LAW FIRMS)</MaterialDesc>
+		<StartDate>02/01/2016</StartDate>
+		<EndDate>07/31/2017</EndDate>
+		<Media>BM</Media>
+		<OnlinePlatform>Intelliconnect</OnlinePlatform>
+		<Quantity>1</Quantity>
+		<HighLevelItem>270</HighLevelItem>
+		<InventoryDTNCode>D075004</InventoryDTNCode>
+		<RenewalTypeCode>1</RenewalTypeCode>
+		<RenewalTypeDesc>CBR Renewal</RenewalTypeDesc>
+		<AccessType>2</AccessType>
+		<AuthType>1</AuthType>
+		<IDtoToBeIssued></IDtoToBeIssued>
+		<MaxNumOfUsers>20</MaxNumOfUsers>
+		<ConcurrentUsers></ConcurrentUsers>
+		<InvoiceNum></InvoiceNum>
+		<NetPriceForItem>1205.04</NetPriceForItem>
+		<DetailMap>Package 1</DetailMap>
+		<FinalMaterial>10044409</FinalMaterial>
+		<FinalMaterialDesc>ANSWERCONNECT PACKAGE 1 UP TO 20 USERS + PICK 1 STATE</FinalMaterialDesc>
+		<DisplayDesc>Customized for tax and accounting professionals who need guidance covering a wide range of Federal tax issues and form preparation, and detailed support for decision-making and planning. Along with coverage of the Federal Tax Code and Regulations, you'll benefit from access to our world-renowned CCH U.S. Master Tax Guide, overviews of many federal and state tax topics, and access to several time-saving tools all designed to help you get the answers you need while getting more done. Also included are comprehensive tax laws and analysis for the state (1) of your choice.</DisplayDesc>
+		<Opt1Materal>10016883</Opt1Materal>
+		<Opt1Price>1205.04</Opt1Price>
+		<Opt1Flag>K</Opt1Flag>
+		<Opt2Material>10044409</Opt2Material>
+		<Opt2Price>1168.88</Opt2Price>
+		<Opt2ICFlag>C</Opt2ICFlag>
+		<Opt2ACFlag>N</Opt2ACFlag>
+		<Opt3ICMaterial>10016883</Opt3ICMaterial>
+		<Opt3ICPrice>180.75</Opt3ICPrice>
+		<Opt3ICFlag>K</Opt3ICFlag>
+		<Opt3ACMaterial>10044409</Opt3ACMaterial>
+		<Opt3ACPrice>1205.04</Opt3ACPrice>
+		<Opt3ACFlag>N</Opt3ACFlag>
+		<Enclude_vs_Exclude>Include</Enclude_vs_Exclude>
+		<ExcludeReason>Include</ExcludeReason>
+		<SingleMultipleContact>Single</SingleMultipleContact>
+		<DateOnMailPiece>5/1/17</DateOnMailPiece>
+		<ShipToFirstName>LEVI</ShipToFirstName>
+		<ShipToLastName>HERZOG</ShipToLastName>
+		<ShipToAddress>252 W 37TH ST</ShipToAddress>
+		<ShipToAddress2></ShipToAddress2>
+		<ShipToCity>NEW YORK</ShipToCity>
+		<ShipToState>NY</ShipToState>
+		<ShipToZip>10018-6636</ShipToZip>
+		<ShipToEMAddress>levih@hobermanlesser.com</ShipToEMAddress>
+		<RepName>Brandon Harrison</RepName>
+		<RepPhone>(866) 775-2140</RepPhone>
+		<RepEMAddress>brandon.harrison@wolterskluwer.com</RepEMAddress>
+		<RepDivision>Service Source</RepDivision>
+	</tag>
+	<tag>
+		<SoldToNum>4001448046</SoldToNum>
+		<SoldToName>HOBERMAN &amp; LESSER</SoldToName>
+		<ShipToNum>4001493218</ShipToNum>
+		<BillToNum>4001448047</BillToNum>
+		<PayerNum>4001448046</PayerNum>
+		<ContractNum>40337553</ContractNum>
+		<ItemNum>40</ItemNum>
+		<MaterialNum>10029232</MaterialNum>
+		<MaterialDesc>FEDERAL ESTATE &amp; GIFT TAX REPORTER ON INTERNET</MaterialDesc>
+		<StartDate>02/01/2016</StartDate>
+		<EndDate>07/31/2017</EndDate>
+		<Media>OL</Media>
+		<OnlinePlatform>Intelliconnect</OnlinePlatform>
+		<Quantity>1</Quantity>
+		<HighLevelItem>40</HighLevelItem>
+		<InventoryDTNCode>D075004</InventoryDTNCode>
+		<RenewalTypeCode>1</RenewalTypeCode>
+		<RenewalTypeDesc>CBR Renewal</RenewalTypeDesc>
+		<AccessType>2</AccessType>
+		<AuthType>1</AuthType>
+		<IDtoToBeIssued></IDtoToBeIssued>
+		<MaxNumOfUsers>20</MaxNumOfUsers>
+		<ConcurrentUsers></ConcurrentUsers>
+		<InvoiceNum></InvoiceNum>
+		<NetPriceForItem>1094.24</NetPriceForItem>
+		<DetailMap>Package 1</DetailMap>
+		<FinalMaterial>10044409</FinalMaterial>
+		<FinalMaterialDesc>ANSWERCONNECT PACKAGE 1 UP TO 20 USERS + PICK 1 STATE</FinalMaterialDesc>
+		<DisplayDesc>Customized for tax and accounting professionals who need guidance covering a wide range of Federal tax issues and form preparation, and detailed support for decision-making and planning. Along with coverage of the Federal Tax Code and Regulations, you'll benefit from access to our world-renowned CCH U.S. Master Tax Guide, overviews of many federal and state tax topics, and access to several time-saving tools all designed to help you get the answers you need while getting more done. Also included are comprehensive tax laws and analysis for the state (1) of your choice.</DisplayDesc>
+		<Opt1Materal>10029232</Opt1Materal>
+		<Opt1Price>1094.24</Opt1Price>
+		<Opt1Flag>K</Opt1Flag>
+		<Opt2Material>10044409</Opt2Material>
+		<Opt2Price>1061.41</Opt2Price>
+		<Opt2ICFlag>C</Opt2ICFlag>
+		<Opt2ACFlag>N</Opt2ACFlag>
+		<Opt3ICMaterial>10029232</Opt3ICMaterial>
+		<Opt3ICPrice>164.13</Opt3ICPrice>
+		<Opt3ICFlag>K</Opt3ICFlag>
+		<Opt3ACMaterial>10044409</Opt3ACMaterial>
+		<Opt3ACPrice>1094.24</Opt3ACPrice>
+		<Opt3ACFlag>N</Opt3ACFlag>
+		<Enclude_vs_Exclude>Include</Enclude_vs_Exclude>
+		<ExcludeReason>Include</ExcludeReason>
+		<SingleMultipleContact>Single</SingleMultipleContact>
+		<DateOnMailPiece>5/1/17</DateOnMailPiece>
+		<ShipToFirstName>LEVI</ShipToFirstName>
+		<ShipToLastName>HERZOG</ShipToLastName>
+		<ShipToAddress>252 W 37TH ST</ShipToAddress>
+		<ShipToAddress2></ShipToAddress2>
+		<ShipToCity>NEW YORK</ShipToCity>
+		<ShipToState>NY</ShipToState>
+		<ShipToZip>10018-6636</ShipToZip>
+		<ShipToEMAddress>levih@hobermanlesser.com</ShipToEMAddress>
+		<RepName>Brandon Harrison</RepName>
+		<RepPhone>(866) 775-2140</RepPhone>
+		<RepEMAddress>brandon.harrison@wolterskluwer.com</RepEMAddress>
+		<RepDivision>Service Source</RepDivision>
+	</tag>
+	<tag>
+		<SoldToNum>4001465123</SoldToNum>
+		<SoldToName>PRESTON &amp; ASSOCIATES</SoldToName>
+		<ShipToNum>4001465124</ShipToNum>
+		<BillToNum>4001465124</BillToNum>
+		<PayerNum>4001465123</PayerNum>
+		<ContractNum>40344560</ContractNum>
+		<ItemNum>10</ItemNum>
+		<MaterialNum>10012463</MaterialNum>
+		<MaterialDesc>TAX PROFESSIONAL LIBRARY - W/TRC (PROT3)</MaterialDesc>
+		<StartDate>02/01/2016</StartDate>
+		<EndDate>07/31/2017</EndDate>
+		<Media>BM</Media>
+		<OnlinePlatform>Intelliconnect</OnlinePlatform>
+		<Quantity>1</Quantity>
+		<HighLevelItem>10</HighLevelItem>
+		<InventoryDTNCode>D075017</InventoryDTNCode>
+		<RenewalTypeCode>1</RenewalTypeCode>
+		<RenewalTypeDesc>CBR Renewal</RenewalTypeDesc>
+		<AccessType>2</AccessType>
+		<AuthType>1</AuthType>
+		<IDtoToBeIssued></IDtoToBeIssued>
+		<MaxNumOfUsers>99</MaxNumOfUsers>
+		<ConcurrentUsers></ConcurrentUsers>
+		<InvoiceNum></InvoiceNum>
+		<NetPriceForItem>2469</NetPriceForItem>
+		<DetailMap>Package 2</DetailMap>
+		<FinalMaterial>10044406</FinalMaterial>
+		<FinalMaterialDesc>ANSWERCONNECT PACKAGE 2 -- UP TO 20 USERS + PICK 1 STATE</FinalMaterialDesc>
+		<DisplayDesc>Designed for tax and accounting professionals working in professional accounting firms who need both quick answers and in-depth analysis on a wide range of Federal and State Tax issues. Combined with complete coverage of the Federal Tax Code and Regulations, this robust package includes our U.S. Master Tax Guide, the largest selection of federal and state interactive tools and topic overviews available, and detailed compliance and form preparation tips. Access practical guidance for your most challenging tax-planning scenarios and to support your decision-making. Also included are comprehensive tax laws and analysis for the state (1) of your choice.</DisplayDesc>
+		<Opt1Materal>10012463</Opt1Materal>
+		<Opt1Price>2469</Opt1Price>
+		<Opt1Flag>K</Opt1Flag>
+		<Opt2Material>10044406</Opt2Material>
+		<Opt2Price>2394.93</Opt2Price>
+		<Opt2ICFlag>C</Opt2ICFlag>
+		<Opt2ACFlag>N</Opt2ACFlag>
+		<Opt3ICMaterial>10012463</Opt3ICMaterial>
+		<Opt3ICPrice>370.35</Opt3ICPrice>
+		<Opt3ICFlag>K</Opt3ICFlag>
+		<Opt3ACMaterial>10044406</Opt3ACMaterial>
+		<Opt3ACPrice>2469</Opt3ACPrice>
+		<Opt3ACFlag>N</Opt3ACFlag>
+		<Enclude_vs_Exclude>Include</Enclude_vs_Exclude>
+		<ExcludeReason>Include</ExcludeReason>
+		<SingleMultipleContact>Single</SingleMultipleContact>
+		<DateOnMailPiece>5/1/17</DateOnMailPiece>
+		<ShipToFirstName>EUGENE</ShipToFirstName>
+		<ShipToLastName>PRESTON</ShipToLastName>
+		<ShipToAddress>527 E LANCASTER AVE</ShipToAddress>
+		<ShipToAddress2></ShipToAddress2>
+		<ShipToCity>SAINT DAVIDS</ShipToCity>
+		<ShipToState>PA</ShipToState>
+		<ShipToZip>19087-5112</ShipToZip>
+		<ShipToEMAddress>gene@preston-cpas.com</ShipToEMAddress>
+		<RepName>Shanna Henderson</RepName>
+		<RepPhone>(615) 395-5255</RepPhone>
+		<RepEMAddress>shanna.henderson@wolterskluwer.com</RepEMAddress>
+		<RepDivision>Service Source</RepDivision>
+	</tag>
+	<tag>
+		<SoldToNum>4001020137</SoldToNum>
+		<SoldToName>AIR T INC</SoldToName>
+		<ShipToNum>4001506845</ShipToNum>
+		<BillToNum>4001506845</BillToNum>
+		<PayerNum>4001020137</PayerNum>
+		<ContractNum>40344691</ContractNum>
+		<ItemNum>10</ItemNum>
+		<MaterialNum>10007605</MaterialNum>
+		<MaterialDesc>CORPORATE TAX PROFESSIONAL W/TRC (CORPP) INTERNET</MaterialDesc>
+		<StartDate>02/01/2016</StartDate>
+		<EndDate>07/31/2017</EndDate>
+		<Media>OL</Media>
+		<OnlinePlatform>Intelliconnect</OnlinePlatform>
+		<Quantity>1</Quantity>
+		<HighLevelItem>10</HighLevelItem>
+		<InventoryDTNCode>D007101</InventoryDTNCode>
+		<RenewalTypeCode>1</RenewalTypeCode>
+		<RenewalTypeDesc>CBR Renewal</RenewalTypeDesc>
+		<AccessType>2</AccessType>
+		<AuthType>1</AuthType>
+		<IDtoToBeIssued></IDtoToBeIssued>
+		<MaxNumOfUsers>99</MaxNumOfUsers>
+		<ConcurrentUsers></ConcurrentUsers>
+		<InvoiceNum></InvoiceNum>
+		<NetPriceForItem>4652</NetPriceForItem>
+		<DetailMap>Package 3</DetailMap>
+		<FinalMaterial>10044427</FinalMaterial>
+		<FinalMaterialDesc>ANSWERCONNECT PACKAGE 3 -- UP TO 20 USERS</FinalMaterialDesc>
+		<DisplayDesc></DisplayDesc>
+		<Opt1Materal>10007605</Opt1Materal>
+		<Opt1Price>4652</Opt1Price>
+		<Opt1Flag>K</Opt1Flag>
+		<Opt2Material>10044427</Opt2Material>
+		<Opt2Price>4512.44</Opt2Price>
+		<Opt2ICFlag>C</Opt2ICFlag>
+		<Opt2ACFlag>N</Opt2ACFlag>
+		<Opt3ICMaterial>10007605</Opt3ICMaterial>
+		<Opt3ICPrice>697.8</Opt3ICPrice>
+		<Opt3ICFlag>K</Opt3ICFlag>
+		<Opt3ACMaterial>10044427</Opt3ACMaterial>
+		<Opt3ACPrice>4652</Opt3ACPrice>
+		<Opt3ACFlag>N</Opt3ACFlag>
+		<Enclude_vs_Exclude>Include</Enclude_vs_Exclude>
+		<ExcludeReason>Include</ExcludeReason>
+		<SingleMultipleContact>Single</SingleMultipleContact>
+		<DateOnMailPiece>5/1/17</DateOnMailPiece>
+		<ShipToFirstName>CANDICE</ShipToFirstName>
+		<ShipToLastName>OTEY</ShipToLastName>
+		<ShipToAddress>3524 AIRPORT RD</ShipToAddress>
+		<ShipToAddress2></ShipToAddress2>
+		<ShipToCity>MAIDEN</ShipToCity>
+		<ShipToState>NC</ShipToState>
+		<ShipToZip>28650-9056</ShipToZip>
+		<ShipToEMAddress>cotey@airt.net</ShipToEMAddress>
+		<RepName>Anne Davis</RepName>
+		<RepPhone>(888) 392-2497</RepPhone>
+		<RepEMAddress>anne.davis@wolterskluwer.com</RepEMAddress>
+		<RepDivision>Research &amp; Learning</RepDivision>
+	</tag>
+	<tag>
+		<SoldToNum>4001463470</SoldToNum>
+		<SoldToName>DEI HOLDINGS INC</SoldToName>
+		<ShipToNum>4001463454</ShipToNum>
+		<BillToNum>4001463454</BillToNum>
+		<PayerNum>4001463470</PayerNum>
+		<ContractNum>40282825</ContractNum>
+		<ItemNum>10</ItemNum>
+		<MaterialNum>10007606</MaterialNum>
+		<MaterialDesc>CORPORATE TAXSUITE W/TRC&amp;FED (CORPS1) INTERNET</MaterialDesc>
+		<StartDate>08/01/2016</StartDate>
+		<EndDate>07/31/2017</EndDate>
+		<Media>OL</Media>
+		<OnlinePlatform>Intelliconnect</OnlinePlatform>
+		<Quantity>1</Quantity>
+		<HighLevelItem>10</HighLevelItem>
+		<InventoryDTNCode>D075006</InventoryDTNCode>
+		<RenewalTypeCode>2</RenewalTypeCode>
+		<RenewalTypeDesc>OBR Renewal</RenewalTypeDesc>
+		<AccessType>2</AccessType>
+		<AuthType>1</AuthType>
+		<IDtoToBeIssued></IDtoToBeIssued>
+		<MaxNumOfUsers>99</MaxNumOfUsers>
+		<ConcurrentUsers></ConcurrentUsers>
+		<InvoiceNum></InvoiceNum>
+		<NetPriceForItem>3773.49</NetPriceForItem>
+		<DetailMap>Package 4</DetailMap>
+		<FinalMaterial>10044432</FinalMaterial>
+		<FinalMaterialDesc>ANSWERCONNECT PACKAGE 4 -- UP TO 20 USERS + PICK 1 DOMESTIC TREATISE</FinalMaterialDesc>
+		<DisplayDesc></DisplayDesc>
+		<Opt1Materal>10007606</Opt1Materal>
+		<Opt1Price>3773.49</Opt1Price>
+		<Opt1Flag>K</Opt1Flag>
+		<Opt2Material>10044432</Opt2Material>
+		<Opt2Price>3660.28</Opt2Price>
+		<Opt2ICFlag>C</Opt2ICFlag>
+		<Opt2ACFlag>N</Opt2ACFlag>
+		<Opt3ICMaterial>10007606</Opt3ICMaterial>
+		<Opt3ICPrice>566.02</Opt3ICPrice>
+		<Opt3ICFlag>K</Opt3ICFlag>
+		<Opt3ACMaterial>10044432</Opt3ACMaterial>
+		<Opt3ACPrice>3773.49</Opt3ACPrice>
+		<Opt3ACFlag>N</Opt3ACFlag>
+		<Enclude_vs_Exclude>Include</Enclude_vs_Exclude>
+		<ExcludeReason>Include</ExcludeReason>
+		<SingleMultipleContact>Single</SingleMultipleContact>
+		<DateOnMailPiece>5/1/17</DateOnMailPiece>
+		<ShipToFirstName>ROBERT</ShipToFirstName>
+		<ShipToLastName>REAGLE</ShipToLastName>
+		<ShipToAddress>1 VIPER WAY</ShipToAddress>
+		<ShipToAddress2></ShipToAddress2>
+		<ShipToCity>VISTA</ShipToCity>
+		<ShipToState>CA</ShipToState>
+		<ShipToZip>92081-7809</ShipToZip>
+		<ShipToEMAddress>robert.reagle@deiholdings.com</ShipToEMAddress>
+		<RepName>Connor Cutclife</RepName>
+		<RepPhone>(615) 395-5255</RepPhone>
+		<RepEMAddress>connor.cutclife@wolterskluwer.com</RepEMAddress>
+		<RepDivision>Service Source</RepDivision>
+	</tag>
+	<contractnums>
+		<contractnum>40282825</contractnum>
+		<contractnum>40287266</contractnum>
+		<contractnum>40335509</contractnum>
+		<contractnum>40337553</contractnum>
+		<contractnum>40344560</contractnum>
+		<contractnum>40344691</contractnum>
+	</contractnums>
+</all_tags>
