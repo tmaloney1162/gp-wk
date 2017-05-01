@@ -1,0 +1,8 @@
+
+# skip these directories
+
+/collections/*
+/jre7/*
+/XEP/*
+/poi-3.16/*
+/run/
