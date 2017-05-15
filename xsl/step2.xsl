@@ -3,6 +3,10 @@
   <xsl:output method="xml" indent="yes"/>
   <xsl:template match="/">
     <all_tags>
+		<footerField1><xsl:value-of select="all_tags/footerField1"/></footerField1>
+		<footerField2><xsl:value-of select="all_tags/footerField2"/></footerField2>
+		<footerCopyrightYear><xsl:value-of select="all_tags/footerCopyrightYear"/></footerCopyrightYear>
+    	
       <xsl:for-each select="//contractnum">
       	<xsl:sort data-type="number" order="ascending" select="count(//tag[ContractNum=current()])"/>
       	

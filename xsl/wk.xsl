@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" version="1.0" xmlns:rx="http://www.renderx.com/XSL/Extensions">
+<xsl:param name="monthDay" select="." />
+<xsl:param name="year" select="."/>
+    
     <xsl:template match="/">
         <fo:root>
           <fo:layout-master-set>
@@ -9,8 +12,9 @@
               </fo:simple-page-master>
 		          <fo:simple-page-master master-name="other-page" page-width="8.5in" page-height="11in">
 <!-- region body  margin -->
-		              <fo:region-body region-name="other-body" margin-top="1.75in" margin-left="1.175in" margin-right="1in"/>
+		              <fo:region-body   region-name="other-body" margin-top="1.75in" margin-left="1.175in" margin-right="1in"/>
 		              <fo:region-before region-name="other-before" extent="1in" display-align="after"/>
+		              <fo:region-after  region-name="other-after"  extent="0.25in" display-align="before"/>
 		          </fo:simple-page-master>
           </fo:layout-master-set>
 					<xsl:for-each select="//contract">
@@ -30,6 +34,31 @@
 
             	<fo:static-content flow-name="other-before"  padding-bottom="2in">
 									<fo:block><xsl:call-template name="page-header"/></fo:block>
+       				</fo:static-content>
+
+            	<fo:static-content flow-name="other-after" padding-bottom="2in" >
+								  <fo:block font-size="6pt" font-family="FiraSans-regular" margin-left="1.175in" margin-right="1in">
+								    <fo:table>
+								        <fo:table-column column-width="40%"/>
+								        <fo:table-column column-width="60%"/>
+								        <fo:table-body>
+								            <fo:table-row>
+								                <fo:table-cell>
+								                    <fo:block>
+																			<xsl:value-of select="/all_tags/footerField1"/> &#160;&#160;&#160;<xsl:value-of select="/all_tags/footerField2"/>
+								                    </fo:block>
+								                </fo:table-cell>
+								                <fo:table-cell margin-top="0.75in" text-align="right">
+								                    <fo:block>
+																			© <xsl:value-of select="/all_tags/footerCopyrightYear"/> CCH Incorporated and its affiliates. All rights reserved
+								                    </fo:block>
+								                </fo:table-cell>
+								            </fo:table-row>
+								            
+								        </fo:table-body>
+								    </fo:table>
+								  </fo:block>
+
        				</fo:static-content>
        					
                 <fo:flow flow-name="other-body">
@@ -115,25 +144,36 @@
 	<fo:block font="13pt FiraSans-italic" margin-top=".35in" margin-bottom=".35in">Our records indicate that you have yet to order ONE of the following resources:</fo:block>
 
 <!-- page_3_tables -->
+<!--
+<xsl:choose>
+	<xsl:when test="@count > 16">
+		<fo:block>QQQQ - greater than 16 - <xsl:value-of select="@count"/></fo:block>
+	</xsl:when>
+	<xsl:otherwise>
+		<fo:block>QQQQ - less than 16 - <xsl:value-of select="@count"/></fo:block>
+	</xsl:otherwise>
+</xsl:choose>
+-->
 
-  <fo:table border=".25pt solid black" margin-bottom=".25in">
+  <fo:table border=".25pt solid black" margin-bottom=".25in" border-after-width.conditionality="retain" rx:table-omit-initial-header="true">
       <fo:table-column column-width="15%"/>
       <fo:table-column column-width="70%"/>
       <fo:table-column column-width="15%"/>
+      
+
   		<fo:table-header>
 				<xsl:call-template name="page_3_table_header">
 					<xsl:with-param name="option" select="'2'"/>
-<!--
 					<xsl:with-param name="continued" select="'y'"/>
--->
 				</xsl:call-template>
 			</fo:table-header>
       <fo:table-body>
-<!--
+
+<xsl:if test="@count &lt; 17">
 					<xsl:call-template name="page_3_table_header">
 						<xsl:with-param name="option" select="'2'"/>
 					</xsl:call-template>
--->
+</xsl:if>
           <fo:table-row font="8pt FiraSans-regular" line-height=".3in">
               <fo:table-cell border=".25pt solid black" padding-left=".2in">
               	<fo:block>
@@ -160,24 +200,23 @@
       </fo:table-body>
   </fo:table>
 
-  <fo:table border=".25pt solid black" margin-bottom=".25in"  border-after-width.conditionality="retain">
+  <fo:table border=".25pt solid black" margin-bottom=".25in" border-after-width.conditionality="retain" rx:table-omit-initial-header="true">
       <fo:table-column column-width="15%"/>
       <fo:table-column column-width="70%"/>
       <fo:table-column column-width="15%"/>
   		<fo:table-header>
 				<xsl:call-template name="page_3_table_header">
 					<xsl:with-param name="option" select="'3'"/>
-<!--
 					<xsl:with-param name="continued" select="'y'"/>
--->
 				</xsl:call-template>
 			</fo:table-header>
       <fo:table-body>
-<!--
+<xsl:if test="@count &lt; 25">
 					<xsl:call-template name="page_3_table_header">
-						<xsl:with-param name="option" select="'2'"/>
+						<xsl:with-param name="option" select="'3'"/>
 					</xsl:call-template>
--->
+</xsl:if>
+      	
           <fo:table-row font="8pt FiraSans-regular" line-height=".3in">
               <fo:table-cell border=".25pt solid black" padding-left=".2in">
               	<fo:block>
@@ -214,21 +253,24 @@
       </fo:table-body>
   </fo:table>
   
-  <fo:table border=".25pt solid black">
+  <fo:table border=".25pt solid black" margin-bottom=".25in" border-after-width.conditionality="retain" rx:table-omit-initial-header="true">
       <fo:table-column column-width="15%"/>
       <fo:table-column column-width="70%"/>
       <fo:table-column column-width="15%"/>
   		<fo:table-header>
 				<xsl:call-template name="page_3_table_header">
 					<xsl:with-param name="option" select="'1'"/>
+					<xsl:with-param name="continued" select="'y'"/>
 				</xsl:call-template>
 			</fo:table-header>
       <fo:table-body>
-<!--
+
+<xsl:if test="@count &lt; 17">
 					<xsl:call-template name="page_3_table_header">
-						<xsl:with-param name="option" select="'2'"/>
+						<xsl:with-param name="option" select="'1'"/>
 					</xsl:call-template>
--->
+</xsl:if>
+
           <fo:table-row font="8pt FiraSans-regular" line-height=".3in">
               <fo:table-cell border=".25pt solid black" padding-left=".2in">
               	<fo:block>
@@ -260,39 +302,42 @@
 <xsl:template name="page_3_table_header">
 <xsl:param name="option"/>
 <xsl:param name="continued" select="'n'"/>
-	    <fo:table-row keep-with-next="always">
-	      <fo:table-cell number-columns-spanned="3" >
-	          <fo:block padding-top=".1in" padding-bottom=".1in" font="13pt FiraSans-regular" color="white" background="black">
-							<fo:block margin-left=".2in" >
-							<xsl:choose>
-								<xsl:when test="$option='2'">
-									CCH® Answer<fo:inline font-family="FiraSans-italic">Connect</fo:inline>
-								</xsl:when>
-								<xsl:when test="$option='3'">
-									CCH® Answer<fo:inline font-family="FiraSans-bolditalic">Connect</fo:inline> AND CCH® IntelliConnect®
-									<xsl:if test="$continued='y'"><fo:inline font-family="FiraSans-italic">&#160;&#160;&#160;continued</fo:inline></xsl:if>
-								</xsl:when>
-								<xsl:otherwise>
-									CCH® IntelliConnect®
-								</xsl:otherwise>
-							</xsl:choose>
-							</fo:block>
 
-	          </fo:block>
-	      </fo:table-cell>
-	    </fo:table-row>
+  <fo:table-row>
+    <fo:table-cell number-columns-spanned="3" >
+        <fo:block padding-top=".1in" padding-bottom=".1in" font="13pt FiraSans-regular" color="white" background="black">
+					<fo:block margin-left=".2in" >
+					<xsl:choose>
+						<xsl:when test="$option='2'">
+							CCH® Answer<fo:inline font-family="FiraSans-italic">Connect</fo:inline>
+							<xsl:if test="$continued='y'"><fo:inline font-family="FiraSans-italic">&#160;&#160;&#160;continued</fo:inline></xsl:if>
+						</xsl:when>
+						<xsl:when test="$option='3'">
+							CCH® Answer<fo:inline font-family="FiraSans-bolditalic">Connect</fo:inline> AND CCH® IntelliConnect®
+							<xsl:if test="$continued='y'"><fo:inline font-family="FiraSans-italic">&#160;&#160;&#160;continued</fo:inline></xsl:if>
+						</xsl:when>
+						<xsl:otherwise>
+							CCH® IntelliConnect®
+							<xsl:if test="$continued='y'"><fo:inline font-family="FiraSans-italic">&#160;&#160;&#160;continued</fo:inline></xsl:if>
+						</xsl:otherwise>
+					</xsl:choose>
+					</fo:block>
 
-	    <fo:table-row font="8pt FiraSans-bold" line-height=".3in">
-	        <fo:table-cell border=".25pt solid black" padding-left=".2in">
-	        	<fo:block>Material ID</fo:block>
-	        </fo:table-cell>
-	        <fo:table-cell border=".25pt solid black" padding-left=".2in">
-	        	<fo:block>Description</fo:block>
-	        </fo:table-cell>
-	        <fo:table-cell border=".25pt solid black" padding-left=".2in">
-	        	<fo:block>Price</fo:block>
-	        </fo:table-cell>
-	    </fo:table-row>
+        </fo:block>
+    </fo:table-cell>
+  </fo:table-row>
+
+  <fo:table-row font="8pt FiraSans-bold" line-height=".3in">
+      <fo:table-cell border=".25pt solid black" padding-left=".2in">
+      	<fo:block>Material ID</fo:block>
+      </fo:table-cell>
+      <fo:table-cell border=".25pt solid black" padding-left=".2in">
+      	<fo:block>Description</fo:block>
+      </fo:table-cell>
+      <fo:table-cell border=".25pt solid black" padding-left=".2in">
+      	<fo:block>Price</fo:block>
+      </fo:table-cell>
+  </fo:table-row>
 </xsl:template>
 
 
@@ -305,7 +350,7 @@
 		<xsl:if test="$showdate='yes'">
 	  	<fo:block margin-top=".4in" margin-bottom=".4in"><xsl:value-of select="tag[1]/DateOnMailPiece"/></fo:block>
 	  </xsl:if>
-	  <fo:block ><xsl:value-of select="tag[1]/SoldToName"/></fo:block>
+	  <fo:block><xsl:value-of select="tag[1]/SoldToName"/></fo:block>
 	  <fo:block><xsl:value-of select="tag[1]/ShipToFirstName"/>&#160;<xsl:value-of select="tag[1]/ShipToLastName"/> </fo:block>
 	  <fo:block><xsl:value-of select="tag[1]/ShipToAddress"/></fo:block>
 	  <fo:block><xsl:value-of select="tag[1]/ShipToAddress2"/></fo:block>
